@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>Bootstrap уроки</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+
+  <style>
+    body {
+      padding: 30px;
+    }
+  </style>
+  </head>
+
+
+
+  <body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">DocViews</a>        
+      </div>
+      <div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#"><i class="glyphicon glyphicon-ok"> Главная</i></a></li>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Обратная связь</a></li>
+        </ul>
+        </div>
+    </div>
+    
+  </nav>
+
+  <div>
+    <h1>ItProgger<small>Маленький текст</small></h1>
+    <i class="glyphicon glyphicon-ok"></i>
+    <h3>ItProgger<small>Маленький текст</small></h3>
+    <h5>ItProgger<small>Маленький текст</small></h5>
+    <div class="container">
+      <p class="text-left text-uppercase">Равнение по левому краю</p>
+      <p class="text-right text-lowercase">Равнение по правому краю</p>
+      <p class="text-center text-capitalize">Равнение по центру</p>
+      <p class="text-justify">Равнение по обоим краям</p>
+    </div>
+  </div>
+  <blockquote>
+    Когда мне тяжело, я всегда напоминаю себе о том, что если я сдамся - лучше не станет.
+    <footer>
+      Майк Тайсон!  
+    </footer>
+  </blockquote>
+  <code>for</code>, <code>while</code>, <code>do while</code>
+
+  <br><br>
+  <div class="container">
+    <pre>
+for i in item:
+  print(i)
+    </pre>
+  </div>
+
+
+  <div class="table-responsive">
+    <table class="table table-hover table-bordered">
+      <thead>
+        <tr class="active">
+          <th>Name</th>
+          <th>Phone</th>
+          <th>Email</th>
+        </tr>
+      
+      </thead>
+      <tbody>
+        <tr>
+          <th class="info">Иванов</th>
+          <th class="warning">+79129992222</th>
+          <th class="danger">ivan@mail.ru</th>
+        </tr>
+        <tr>
+          <th class="info">Петров</th>
+          <th class="warning">+79129992222</th>
+          <th class="danger">petr@ya.ru</th>
+        </tr>
+        <tr>
+          <th class="info">Сидоров</th>
+          <th class="warning">+79129992222</th>
+          <th class="danger"><button class="btn btn-link">sidor@google.com</button></th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+    <!-- <div class="container-fluid">
+    <h1>3 различных блока</h1>
+    <div class="row">
+      <div class="col-md-4" style="background-color: #ebc334">Left</div>
+      <div class="col-md-4" style="background-color: #3fe8c9">Center</div>
+      <div class="col-md-4" style="background-color: #7254de">Right</div>
+    </div>
+
+
+    <p>Привет, вы на сайте itProger</p> -->
+
+
+    <button class="btn btn-warning">Внимание</button>
+    <button class="btn btn-danger">Отмена</button>
+    <button class="btn btn-link">Ссылка</button>
+    <button class="btn btn-default">Стандартная</button>
+    <input type="submit" class="btn btn-primary" value="Основная">
+    <input type="button" class="btn btn-success" value="Подтвердить">
+    <a href="#" class="btn btn-info" role="button">Информация</a>
+
+    <br><br>
+    <button class="btn btn-default btn-lg">Кнопка</button>
+    <button class="btn btn-default btn-md">Кнопка</button>
+    <button class="btn btn-default btn-sm">Кнопка</button>
+    <button class="btn btn-default btn-xs">Кнопка</button>
+
+    <button class="btn btn-success btn-block">Кнопка</button>
+    <button class="btn btn-success btn-block disabled btn-sm">Кнопка</button>
+
+    <br><br><br>
+    <div class="btn-group btn-group-justified">
+
+      <div class="btn-group" data-toggle="buttons">
+        <label class="btn btn-primary">
+          <input type="checkbox"> Параметр 1
+        </label>
+        <label class="btn btn-primary">
+          <input type="checkbox"> Параметр 2
+        </label>
+        <label class="btn btn-primary">
+          <input type="checkbox"> Параметр 3
+        </label>
+      </div>
+      <div class="btn-group" data-toggle="buttons">
+        <label class="btn btn-primary">
+          <input type="checkbox"> Параметр 1
+        </label>
+        <label class="btn btn-primary">
+          <input type="checkbox"> Параметр 2
+        </label>
+        <label class="btn btn-primary">
+          <input type="checkbox"> Параметр 3
+        </label>
+      </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="btn-group-vertical" data-toggle="buttons">
+        <label class="btn btn-primary">
+          <input type="checkbox"> Параметр 1
+        </label>
+        <label class="btn btn-primary">
+          <input type="checkbox"> Параметр 2
+        </label>
+        <label class="btn btn-primary">
+          <input type="checkbox"> Параметр 3
+        </label>
+      </div>
+
+
+      <div class="container">
+        <form role="form">
+          <div class="form-group">
+            <lable for="email">Email</lable>
+            <input type="email" class="form-control" id="email" placeholder="Введите Email">  
+            <p class="help-block">Некая подсказка</p>
+          </div>
+        </form>
+      
+        <div class="form-group">
+          <lable for="password">Пароль</lable>
+          <input type="password" class="form-control" id="password" placeholder="Введите пароль">  
+          <p class="help-block">Пароль должен быть</p>
+        </div>
+        <div class="checkbox">
+          <label for="password">
+            <input type='checkbox'>Чекбокс
+          </label>
+        </div>
+        <div>
+          <button type="button" class="btn btn-success">Регистрция</button>
+        </div>
+      </div>
+      <span class="badge">57</span>
+      <img src="Конверт.jpg" alt="какая-то картиинка" class="img-rounded">
+      <span class="glyphicon glyphicon-camera"></span>
+
+
+
+
+<br><br>
+      <div class="panel panel-default">
+        <div class="panel-heading">Заголовок</div>
+        <div class="panel-body"> Текст</div>
+        <div class="panel-footer">Подвал</div>
+      </div>
+      <div class="panel panel-info">
+        <div class="panel-heading">Заголовок</div>
+        <div class="panel-body"> Текст</div>
+      </div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">Заголовок</div>
+        <div class="panel-body"> Текст</div>
+      </div>
+      <div class="panel-group">
+        <div class="panel panel-warning">
+          <div class="panel-heading">Заголовок</div>
+          <div class="panel-body"> Текст</div>
+        </div>
+        <div class="panel panel-success">
+          <div class="panel-heading">Заголовок</div>
+          <div class="panel-body"> Текст</div>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">Заголовок</div>
+          <div class="panel-body"> Текст</div>
+          <div class="panel-footer">Подвал</div>
+        </div>
+      </div>
+  
+
+
+  <div class="dropdown">
+    <button class="btn btn-info dropdown-toogle" data-toggle="dropdown">Список <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li class="dropdown-header">Языки разметок</li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">BootStrap</a></li>
+      <li class="divider"></li>
+      <li class="dropdown-header">Языки разметок</li>
+      <li><a href="#">WordPres</a></li>
+    </ul>
+
+  </div>
+
+
+
+
+
+
+
+      <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</body>
+</html>
